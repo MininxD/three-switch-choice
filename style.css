@@ -1,0 +1,137 @@
+fieldset{
+  border-radius: 10px;
+  border: 2px #333 solid;
+  justify-content: center;
+  margin-bottom: 5rem;
+  box-shadow: 5px 5px #333;
+}
+div.field {
+  padding: 10px;
+  display: block;
+}
+div.upload {
+  background: #333;
+  color:#fff;
+  width: fit-content;
+  width: 80%;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  transform: translateY(-5px);
+}
+span.info {
+  opacity: 0.5;
+  font-size:5px;
+  font-style: oblique;
+}
+input.input {
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 20;
+  border-radius: 10px;
+  border: 1px #333 solid;
+  box-shadow: 3px 3px #333;
+}
+input:focus {
+  outline:0;
+}
+input.input::placeholder {
+  font-weight: 400;
+  opacity: 0.3;
+}
+input[type="file"] {
+  display: none;
+}
+div.content {
+  font-family: Arial, Sans-Serif;
+  padding:10px;
+}
+div.pilihanContainer {
+  border: 2px solid #333;
+  box-shadow: 5px 5px #333;
+  border-radius: 10px;
+  padding:10px;
+  height: 150px;
+  margin-top: 1em;
+  display: block;
+  position: relative;
+  font-size: 35px;
+}
+div.pilihan {
+  overflow: auto;
+  transition: 0.2s linear;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 2px;
+  font-weight: 500;
+}
+img {
+  max-height: 75px;
+  margin:5px;
+}
+.btn-img {
+  transform: translateY(-85px);
+}
+div.btn-pos {
+  width: 100%;
+  display: flex;
+  transform: translateY(10px);
+  justify-content: flex-end;
+}
+div.button {
+  transition: 0.3s ease-out;
+  background: #eee;
+  width: 75px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px #333 solid;
+}
+div.button.on {
+  background: #333; 
+}
+div.switch {
+  transition: 0.3s ease-out;
+  position: relative;
+  background: #333;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+}
+
+div.switch.on {
+  background: #eee;
+  left: 40px;
+}
+.semi {
+  font-weight: 100 !important;
+  opacity: 0.5;
+}
+div#okBtn {
+  margin-top:2em;
+  background: #333;
+  color:#fff;
+  width: 40%;
+  font-size: 20px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  color:#333;
+  text-align: center;
+  font-weight: 500;
+  font-style: oblique;
+}

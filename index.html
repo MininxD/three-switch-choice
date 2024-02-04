@@ -1,0 +1,67 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="module" src="./untitled.js"></script>
+<script type="module" src="./input.js"></script>
+<script type="module" src="./imageUpload.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<div class="option-menu">
+  <fieldset>
+    <legend>Switch Menu</legend>
+<center>
+<div class='field'>
+  <input placeholder="Atas" class="input" id="top">
+  <br>
+  <input placeholder="Tengah" class="input" id="mid">
+  <br>
+  <input placeholder="Bawah" class="input" id="bot">
+</div>
+
+ <label for="upImg">
+   <div class="upload" id="uploadImg">
+    <input id="upImg" accept="image/*" type="file">upload image<br>
+    <span class="info">(opsional)</span>
+    </div>
+ </label>
+ 
+ <div class="flexEnd">
+   <div id="okBtn">Hide Menu</div>
+ </div>
+</center>
+
+  </fieldset>
+</div>
+
+<div class="content">
+<div class="pilihanContainer">
+<div id="pil-1" class="pilihan pil-1 semi">${atas}</div>
+<div class="btn-pos">
+  <div id="switchContainer1" class="button">
+    <div id="switchButton1" class="switch"></div>
+  </div>
+</div>
+</div>
+
+<div class="pilihanContainer">
+<div id="pil-2" class="pilihan pil-2 semi">${tengah}</div>
+<img id="images" height="75px">
+<div class="btn-pos">
+  <div id="switchContainer2" class="button btn-img">
+    <div id="switchButton2" class="switch"></div>
+  </div>
+</div>
+</div>
+
+<div class="pilihanContainer">
+<div id="pil-3" class="pilihan pil-3 semi">${bawah}</div>
+<div class="btn-pos">
+  <div id="switchContainer3" class="button">
+    <div id="switchButton3" class="switch"></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<a href="https://mininxd.my.id/">
+<p>visit homepage</p>
+</a>
