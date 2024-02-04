@@ -42,3 +42,19 @@ switchBtn2.addEventListener("click", function() {
 switchBtn3.addEventListener("click", function() {
   onOff3();
 })
+
+
+
+
+var okBtn = document.getElementById("okBtn");
+var fieldDiv = document.getElementById("fieldDiv");
+var field = document.getElementById("field");
+
+okBtn.addEventListener("click", function() {
+  fieldDiv.style.margin = "0";
+  fieldDiv.style.opacity = "0";
+  field.style.height = "0";
+  setTimeout(function() {
+    fieldDiv.style.display = "none";
+  }, 350)
+})

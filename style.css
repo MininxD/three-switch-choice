@@ -1,9 +1,20 @@
-fieldset{
+div.option-menu {
+  margin-bottom: 5rem;
+  transition: 0.3s;
+}
+fieldset {
+  height: fit-content;
+  transition: 0.3s;
+  overflow-y: hidden;
   border-radius: 10px;
   border: 2px #333 solid;
   justify-content: center;
-  margin-bottom: 5rem;
   box-shadow: 5px 5px #333;
+}
+legend {
+  font-family: Monospace ;
+  font-size: 18px;
+  font-weight: 500;
 }
 div.field {
   padding: 10px;
